@@ -17,5 +17,5 @@ salvar.onclick = () => {
 
 btn.onclick = e => {
   if (!links.length) { e.preventDefault(); alert('Adicione links.'); return; }
-  window.open(btn.dataset.href '_blank');
+  window.open(btn.dataset.href, '_blank');
 };
